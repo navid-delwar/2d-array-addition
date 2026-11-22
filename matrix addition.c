@@ -25,10 +25,10 @@ int main ()
     {
         for(int j=0;j<2;j++)
         {
-           Z[m][j]=X[m][j]+Y[m][j];
+           Z[m][j]=X[m][j]*Y[m][j];
         }
     }
-    printf("sum (X+Y):\n");
+    printf("sum (X*Y):\n");
     for(int m=0;m<2;m++)
     {
         for(int j=0;j<2;j++)
